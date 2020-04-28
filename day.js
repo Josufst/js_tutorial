@@ -9,8 +9,8 @@ function dayName(date) {
 function greeting(date) {
     	return("hello, world!");
   		return("I love Linda");
-			let firstName = "Linda"
-			let lastName = "van Paaschen"
-			console.log(`${firstName} ${lastName}`);
+			firstName = "Linda"
+			lastName = "van Paaschen"
+			return(`${firstName} ${lastName}`);
       return(`Hello, world! Happy ${dayName(now)}.`);
 }
