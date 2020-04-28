@@ -7,10 +7,10 @@ function dayName(date) {
 
 // Returns a greeting for the given date.
 function greeting(date) {
-    	alert("hello, world!");
-  		alert("I love Linda");
+    	return("hello, world!");
+  		return("I love Linda");
 			let firstName = "Linda"
 			let lastName = "van Paaschen"
 			console.log(`${firstName} ${lastName}`);
-      alert(`Hello, world! Happy ${dayName(now)}.`);
+      return(`Hello, world! Happy ${dayName(now)}.`);
 }
